@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Long HTML Code Example Page</title>
+    <style>
+        /* Basic CSS for demonstration purposes */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .code-block {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to a Sample HTML Page</h1>
+        <p>This page demonstrates various [W3Schools](https://www.w3schools.com/html/) HTML elements and their usage.</p>
+    </header>
+
+    <section>
+        <h2>Headings and Paragraphs</h2>
+        <p>HTML uses <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags for headings to show document structure, with <code>&lt;h1&gt;</code> being the most important.</p>
+        <h3>A Subheading (h3)</h3>
+        <p>This is a standard paragraph defined by the <code>&lt;p&gt;</code> tag. You cannot be sure how HTML will be displayed across different screen sizes, so you shouldn't add extra spaces in your code for layout.</p>
+    </section>
+
+    <section>
+        <h2>Lists</h2>
+        <p>HTML supports both unordered and ordered lists.</p>
+
+        <h3>Unordered List (Bullet Points)</h3>
+        <ul>
+            <li>First item in the list</li>
+            <li>Second item, which can contain a <a href="https://example.com" title="A sample link">link to another page</a>.</li>
+            <li>Third item using a bullet point.</li>
+        </ul>
+
+        <h3>Ordered List (Numbered Items)</h3>
+        <ol>
+            <li>Step one: Do something.</li>
+            <li>Step two: Do something else.</li>
+            <li>Step three: Finish the task.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Images and Links</h2>
+        <p>The <code>&lt;img&gt;</code> tag is used for images, and it uses attributes like <code>src</code> (source file) and <code>alt</code> (alternative text).</p>
+        <!-- A placeholder image is referenced here -->
+        <img src="https://picsum.photos" alt="A cute dog picture" width="200" height="150">
+
+        <p>Links are defined using the <code>&lt;a&gt;</code> anchor tag, with the destination specified in the <code>href</code> attribute.</p>
+        <a href="https://www.w3schools.com/html/" target="_blank" title="Visit W3Schools HTML Tutorial">Visit the W3Schools HTML Tutorial</a>
+    </section>
+
+    <section>
+        <h2>Table Example</h2>
+        <p>Tables can organize data using <code>&lt;table&gt;</code>, <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, and <code>&lt;td&gt;</code> tags.</p>
+        <table>
+            <caption>Monthly Expenses</caption>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rent</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>Groceries</td>
+                    <td>$400</td>
+                </tr>
+                <tr>
+                    <td>Utilities</td>
+                    <td>$200</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>A Simple Form</h2>
+        <p>Forms are used to collect user input with the <code>&lt;form&gt;</code> element and various input types.</p>
+        <form action="/submit_page" method="POST">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section>
+        <h2>Code Snippet Example</h2>
+        <p>The <code>&lt;pre&gt;</code> tag preserves both whitespace and line breaks, making it suitable for displaying blocks of code within an HTML document.</p>
+        <div class="code-block">
+            <pre>
+                <code>
+x = 5;
+y = 6;
+z = x + y;
+console.log(z);
+                </code>
+            </pre>
+        </div>
+    </section>
+
+    <footer>
+        <p><small>&copy; 2026 Sample Page. All rights reserved.</small></p>
+        <address>
+            <a href="mailto:contact@example.com">Contact Us</a>
+        </address>
+    </footer>
+
+</body>
+</html>
